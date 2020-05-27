@@ -16,7 +16,16 @@
                     <button id="button-set-fild-size"> Изменить размер поля </button>
                 </div>
                 <div>
-                    <div><input type="checkbox" id="checkbox-use-grid"/> Использовать сетку </div>
+                    <div class="checkbox-list">
+                        <div><input type="checkbox" id="checkbox-use-grid"/> Использовать сетку </div>
+                        <div><input type="checkbox" id="checkbox-sticking"/> Прилипания </div>
+                    </div>
+                    <div><button id="shape-to-center"> Переместить фигуру в центр </button></div>
+                    <div><button id="save-to-file"> Сохранить </button></div>
+                    <div id="file-load-block">
+                        <input type="file" id="file-input"/>
+                        <button id="open-file"> Открыть файл </button>
+                    </div>
                 </div>
             </div>
             <div class="counters">
@@ -35,6 +44,7 @@
                 <p>[E] - Вращать выделенное по часовой</p>
                 <p>[Delete] - Удалить выделенное</p>
                 <p>Движение камеры - ПКМ по свободной области или ПКМ + CRTL(META) по любой области</p>
+                <p>Скролл вниз - отдалить | скролл вверх - приблизить</p>
             </div>
         </div>
         <script src="bundle.js" type="text/javascript"></script>
