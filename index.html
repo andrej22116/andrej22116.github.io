@@ -20,7 +20,12 @@
                         <div><input type="checkbox" id="checkbox-use-grid"/> Использовать сетку </div>
                         <div><input type="checkbox" id="checkbox-sticking"/> Прилипания </div>
                     </div>
-                    <div><button id="shape-to-center"> Переместить фигуру в центр </button></div>
+                    <div class="checkbox-list">
+                        <button id="shape-to-center" disabled> Переместить фигуру в центр </button>
+                        <button id="rotate-counterclockwise" disabled> Повернуть против часовой </button>
+                        <button id="rotate-clockwise" disabled> Повернуть по часовой </button>
+                        <button id="shape-delete" disabled> Удалить фигуру </button>
+                    </div>
                     <div><button id="save-to-file"> Сохранить </button></div>
                     <div id="file-load-block">
                         <input type="file" id="file-input"/>
